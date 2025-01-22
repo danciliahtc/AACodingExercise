@@ -6,6 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1D8AB2752D4163F6004D6A57 /* ResultEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8AB2712D4163F6004D6A57 /* ResultEntity+CoreDataClass.swift */; };
+		1D8AB2762D4163F6004D6A57 /* TopicEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8AB2732D4163F6004D6A57 /* TopicEntity+CoreDataClass.swift */; };
+		1D8AB2772D4163F6004D6A57 /* AirlineEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8AB2702D4163F6004D6A57 /* AirlineEntity+CoreDataProperties.swift */; };
+		1D8AB2782D4163F6004D6A57 /* TopicEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8AB2742D4163F6004D6A57 /* TopicEntity+CoreDataProperties.swift */; };
+		1D8AB2792D4163F6004D6A57 /* ResultEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8AB2722D4163F6004D6A57 /* ResultEntity+CoreDataProperties.swift */; };
+		1D8AB27A2D4163F6004D6A57 /* AirlineEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8AB26F2D4163F6004D6A57 /* AirlineEntity+CoreDataClass.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		1D19D5052D2E3A4100C4051B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +36,12 @@
 		1D19D4EE2D2E3A3E00C4051B /* AACodingExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AACodingExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D19D5042D2E3A4100C4051B /* AACodingExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AACodingExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D19D50E2D2E3A4100C4051B /* AACodingExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AACodingExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D8AB26F2D4163F6004D6A57 /* AirlineEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AirlineEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1D8AB2702D4163F6004D6A57 /* AirlineEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AirlineEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1D8AB2712D4163F6004D6A57 /* ResultEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ResultEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1D8AB2722D4163F6004D6A57 /* ResultEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ResultEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1D8AB2732D4163F6004D6A57 /* TopicEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TopicEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1D8AB2742D4163F6004D6A57 /* TopicEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TopicEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -88,6 +103,12 @@
 		1D19D4E52D2E3A3E00C4051B = {
 			isa = PBXGroup;
 			children = (
+				1D8AB26F2D4163F6004D6A57 /* AirlineEntity+CoreDataClass.swift */,
+				1D8AB2702D4163F6004D6A57 /* AirlineEntity+CoreDataProperties.swift */,
+				1D8AB2712D4163F6004D6A57 /* ResultEntity+CoreDataClass.swift */,
+				1D8AB2722D4163F6004D6A57 /* ResultEntity+CoreDataProperties.swift */,
+				1D8AB2732D4163F6004D6A57 /* TopicEntity+CoreDataClass.swift */,
+				1D8AB2742D4163F6004D6A57 /* TopicEntity+CoreDataProperties.swift */,
 				1D19D4F02D2E3A3E00C4051B /* AACodingExercise */,
 				1D19D5072D2E3A4100C4051B /* AACodingExerciseTests */,
 				1D19D5112D2E3A4100C4051B /* AACodingExerciseUITests */,
@@ -249,6 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D8AB2752D4163F6004D6A57 /* ResultEntity+CoreDataClass.swift in Sources */,
+				1D8AB2762D4163F6004D6A57 /* TopicEntity+CoreDataClass.swift in Sources */,
+				1D8AB2772D4163F6004D6A57 /* AirlineEntity+CoreDataProperties.swift in Sources */,
+				1D8AB2782D4163F6004D6A57 /* TopicEntity+CoreDataProperties.swift in Sources */,
+				1D8AB2792D4163F6004D6A57 /* ResultEntity+CoreDataProperties.swift in Sources */,
+				1D8AB27A2D4163F6004D6A57 /* AirlineEntity+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +323,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +351,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
