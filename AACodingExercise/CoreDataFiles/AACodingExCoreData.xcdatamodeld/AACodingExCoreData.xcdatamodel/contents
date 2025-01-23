@@ -2,17 +2,17 @@
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23605" systemVersion="24C101" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
     <entity name="AirlineEntity" representedClassName="AirlineEntity" syncable="YES" codeGenerationType="class">
         <attribute name="name" optional="YES" attributeType="String"/>
-        <relationship name="resultEntity" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="ResultEntity" inverseName="airlineEntity" inverseEntity="ResultEntity"/>
-        <relationship name="topicEntity" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="TopicEntity" inverseName="airlineEntity" inverseEntity="TopicEntity"/>
+        <relationship name="results" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="ResultEntity" inverseName="airline" inverseEntity="ResultEntity"/>
+        <relationship name="topics" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="TopicEntity" inverseName="airline" inverseEntity="TopicEntity"/>
     </entity>
     <entity name="ResultEntity" representedClassName="ResultEntity" syncable="YES" codeGenerationType="class">
         <attribute name="firstURL" optional="YES" attributeType="String"/>
         <attribute name="text" optional="YES" attributeType="String"/>
-        <relationship name="airlineEntity" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="AirlineEntity" inverseName="resultEntity" inverseEntity="AirlineEntity"/>
+        <relationship name="airline" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="AirlineEntity" inverseName="results" inverseEntity="AirlineEntity"/>
     </entity>
     <entity name="TopicEntity" representedClassName="TopicEntity" syncable="YES" codeGenerationType="class">
         <attribute name="firstURL" optional="YES" attributeType="String"/>
         <attribute name="text" optional="YES" attributeType="String"/>
-        <relationship name="airlineEntity" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="AirlineEntity" inverseName="topicEntity" inverseEntity="AirlineEntity"/>
+        <relationship name="airline" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="AirlineEntity" inverseName="topics" inverseEntity="AirlineEntity"/>
     </entity>
 </model>

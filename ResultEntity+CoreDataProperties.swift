@@ -2,7 +2,7 @@
 //  ResultEntity+CoreDataProperties.swift
 //  AACodingExercise
 //
-//  Created by Dancilia Harmon   on 1/22/25.
+//  Created by Dancilia Harmon   on 1/23/25.
 //
 //
 
@@ -18,7 +18,7 @@ extension ResultEntity {
 
     @NSManaged public var firstURL: String?
     @NSManaged public var text: String?
-    @NSManaged public var airlineEntity: AirlineEntity?
+    @NSManaged public var airline: AirlineEntity?
 
 }
 

@@ -2,7 +2,7 @@
 //  AirlineEntity+CoreDataProperties.swift
 //  AACodingExercise
 //
-//  Created by Dancilia Harmon   on 1/22/25.
+//  Created by Dancilia Harmon   on 1/23/25.
 //
 //
 
@@ -17,42 +17,42 @@ extension AirlineEntity {
     }
 
     @NSManaged public var name: String?
-    @NSManaged public var resultEntity: NSSet?
-    @NSManaged public var topicEntity: NSSet?
+    @NSManaged public var results: NSSet?
+    @NSManaged public var topics: NSSet?
 
 }
 
-// MARK: Generated accessors for resultEntity
+// MARK: Generated accessors for results
 extension AirlineEntity {
 
-    @objc(addResultEntityObject:)
-    @NSManaged public func addToResultEntity(_ value: ResultEntity)
+    @objc(addResultsObject:)
+    @NSManaged public func addToResults(_ value: ResultEntity)
 
-    @objc(removeResultEntityObject:)
-    @NSManaged public func removeFromResultEntity(_ value: ResultEntity)
+    @objc(removeResultsObject:)
+    @NSManaged public func removeFromResults(_ value: ResultEntity)
 
-    @objc(addResultEntity:)
-    @NSManaged public func addToResultEntity(_ values: NSSet)
+    @objc(addResults:)
+    @NSManaged public func addToResults(_ values: NSSet)
 
-    @objc(removeResultEntity:)
-    @NSManaged public func removeFromResultEntity(_ values: NSSet)
+    @objc(removeResults:)
+    @NSManaged public func removeFromResults(_ values: NSSet)
 
 }
 
-// MARK: Generated accessors for topicEntity
+// MARK: Generated accessors for topics
 extension AirlineEntity {
 
-    @objc(addTopicEntityObject:)
-    @NSManaged public func addToTopicEntity(_ value: TopicEntity)
+    @objc(addTopicsObject:)
+    @NSManaged public func addToTopics(_ value: TopicEntity)
 
-    @objc(removeTopicEntityObject:)
-    @NSManaged public func removeFromTopicEntity(_ value: TopicEntity)
+    @objc(removeTopicsObject:)
+    @NSManaged public func removeFromTopics(_ value: TopicEntity)
 
-    @objc(addTopicEntity:)
-    @NSManaged public func addToTopicEntity(_ values: NSSet)
+    @objc(addTopics:)
+    @NSManaged public func addToTopics(_ values: NSSet)
 
-    @objc(removeTopicEntity:)
-    @NSManaged public func removeFromTopicEntity(_ values: NSSet)
+    @objc(removeTopics:)
+    @NSManaged public func removeFromTopics(_ values: NSSet)
 
 }
 

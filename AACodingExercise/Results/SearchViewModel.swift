@@ -105,7 +105,7 @@ class SearchViewModel {
             resultEntity.firstURL = resultItem.firstURL
             resultEntity.text = resultItem.text
             
-            airlineEntity.addToResults(resultEntity)
+            airlineEntity.addToResultEntity(resultEntity)
             resultEntity.airlineEntity = airlineEntity
         }
         
@@ -114,7 +114,7 @@ class SearchViewModel {
             topicEntity.firstURL = relatedTopic.firstURL
             topicEntity.text = relatedTopic.text
             
-            airlineEntity.addToRelatedTopics(topicEntity)
+            airlineEntity.addToTopicEntity(topicEntity)
             topicEntity.airlineEntity = airlineEntity
         }
     }

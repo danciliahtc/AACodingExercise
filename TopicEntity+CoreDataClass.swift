@@ -2,7 +2,7 @@
 //  TopicEntity+CoreDataClass.swift
 //  AACodingExercise
 //
-//  Created by Dancilia Harmon   on 1/22/25.
+//  Created by Dancilia Harmon   on 1/23/25.
 //
 //
 
@@ -13,3 +13,4 @@ import CoreData
 public class TopicEntity: NSManagedObject {
 
 }
+
